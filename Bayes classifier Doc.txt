@@ -1,0 +1,17 @@
+1. Naive Bayes classifier
+2. Bayes' Theorem
+3. scikit-learn library
+------------------------------------------------------------------------------------------------
+Classes & Functions ->
+
+There are classes and functions that are crucial for text classification:
+
+1.CountVectorizer: This class converts text data into a numerical format that the machine-learning model can understand. It counts how many times each word appears in the text, turning words into a matrix of counts.
+
+2.MultinomialNB: This is a Naive Bayes classifier, which is used to train our model on the numerical text data.
+
+3.train_test_split: This function helps split our dataset into training and testing sets. It is commonly used in predictive machine learning. The training set is used to train the model, while the testing set is used to evaluate its performance. Learn more here:
+
+4.accuracy_score: This function provides a way to measure the accuracy of our model by comparing the predicted labels with the actual labels in the test set. A higher accuracy score indicates better performance, a score of 1.0 = great predictions.
+
+These classes and functions are essential for building a text classification model. Let's dive into the code and see how we can classify text data using a Naive Bayes classifier!
